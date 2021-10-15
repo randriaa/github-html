@@ -37,7 +37,7 @@ mouseEvent.addEventListener('mousemove', (e) => {
 	horizontal.innerHTML = e.x ; 
 	vertical.innerHTML = e.y ; 
 	mouseEvent.style.left = e.x / window.innerWidth * 100 + "%" ;
-	if(e.x > 700){
+	if(e.x > 900){
 		document.body.style.filter = "blur(3px)"; //rajoute de flou dès le dépassement de 500px
 	}
 	else {
